@@ -15,7 +15,7 @@ def assign_rooms(attendees)
   newarr = []
   count = 1
   attendees.each do |i|
-    newarr << ("Hello, #{i}! You'll be assigned to room #{count}.")
+    newarr << ("Hello, #{i}! You'll be assigned to room #{count},")
     count += 1
   end
   newarr
