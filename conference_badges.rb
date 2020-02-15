@@ -6,7 +6,7 @@ end
 def batch_badge_creator(attendees)
   newarr = []
   attendees.each do |i|
-    newarr << ("Hello, my name is #{i}")
+    newarr << ("Hello, my name is #{i}.")
   end
   newarr
 end
